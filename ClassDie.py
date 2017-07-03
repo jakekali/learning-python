@@ -5,7 +5,7 @@ class Die(object):
         self.sides = sides
         self.color = color
 
-    def getcolor(self):
+    def getColor(self):
         return self.color
 
     def getSides(self):
@@ -31,7 +31,7 @@ rome.changeSides(999999999)
 print("Now I'm going to Roll the dice to see what I get")
 print(rome.roll())
 
-newColor = input("Please change the color of the die from " + rome.getcolor())
+newColor = input("Please change the color of the die from " + rome.getColor())
 rome.changeColor(newColor)
 
-print("Congrats the new color is " + rome.getcolor())
+print("Congrats the new color is " + rome.getColor())
